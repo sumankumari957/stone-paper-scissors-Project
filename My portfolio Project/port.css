@@ -1,0 +1,48 @@
+/* Smooth scroll */
+html {
+  scroll-behavior: smooth;
+}
+
+.navbar {
+  
+  padding-bottom: 50px; 
+}
+
+.navbar .navbar-brand {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top:10px;
+  font-size: 30px;
+  padding: 10px;
+  
+
+}
+
+
+/* Hero Section Styling */
+.hero-section {
+  height: 100vh;
+  background: linear-gradient(to right, #007bff, #00bcd4);
+  padding-top: 80px;
+}
+
+/* Section Headings */
+h2 {
+  font-weight: bold;
+}
+
+/* Project Cards */
+.card:hover {
+  transform: scale(1.03);
+  transition: 0.3s ease;
+}
+
+/* Contact Form Button */
+button {
+  transition: 0.3s ease;
+}
+
+button:hover {
+  transform: scale(1.02);
+}
